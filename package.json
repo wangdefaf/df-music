@@ -1,0 +1,45 @@
+{
+  "name": "df-music",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "test": "react-scripts test --env=jsdom",
+    "lint": "eslint src",
+    "lint:create": "eslint --init"
+  },
+  "dependencies": {
+    "@icon-park/vue": "^1.3.3",
+    "element-ui": "^2.15.2",
+    "vue": "^2.6.11",
+    "vue-cookies": "^1.7.4",
+    "vue-lazyload": "^1.3.3",
+    "vue-router": "^3.0.7",
+    "vuex": "^3.4.0"
+  },
+  "devDependencies": {
+    "@babel/polyfill": "^7.11.5",
+    "@vue/cli-plugin-babel": "~4.5.0",
+    "@vue/cli-plugin-router": "~4.5.0",
+    "@vue/cli-plugin-vuex": "~4.5.0",
+    "@vue/cli-service": "~4.5.0",
+    "axios": "^0.18.0",
+    "mutationobserver-shim": "^0.3.7",
+    "node-sass": "^6.0.0",
+    "popper.js": "^1.16.1",
+    "portal-vue": "^2.1.7",
+    "sass": "^1.26.11",
+    "sass-loader": "^10.2.0",
+    "style-loader": "^2.0.0",
+    "vue-cli-plugin-axios": "0.0.4",
+    "vue-cli-plugin-bootstrap-vue": "^0.7.0",
+    "vue-cli-plugin-sass-resources-loader": "^1.0.0",
+    "vue-template-compiler": "^2.6.11"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead"
+  ]
+}
